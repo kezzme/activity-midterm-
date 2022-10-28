@@ -52,21 +52,31 @@
 					),
 
 					array(
+						'type' => 'Admin',
+						'username' => 'admin2',
+						'password' => 'pass123',
+					),
+
+
+					array(
 						'type' => 'Content Manager',
 						'username' => 'troy',
 						'password' => 'rosales123',
 					),
 
 					array(
-						'type' => 'System User',
-						'username' => 'neko',
-						'password' => 'puma123',
+						'type' => 'Content Manager',
+						'username' => 'alei',
+						'password' => 'rosales123',
 					),
+
+
 					array(
 						'type' => 'System User',
 						'username' => 'neko',
 						'password' => 'puma123',
-					),
+					)
+					
 				);
 
 				//print_r($users);
