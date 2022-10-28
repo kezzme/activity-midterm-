@@ -6,13 +6,15 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
-		<title>Vendo Machine</title>
-	</head>
-	<body>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Vendo Machine</title>
+</head>
+<body>
 
-		<h3>Vendo Machine</h3>
-		<form method="post">
+	<h3>Vendo Machine</h3>
+	<form method="post">
 			
 			<!------------------Products------------------>
 			<fieldset style="width: 370px;">
@@ -20,9 +22,9 @@
 				<legend>Products:</legend>
 				<?php  
 					if(isset($sodaArr)){
-						foreach ($sodaArr as $sodasKey => $sodaValue) {
-							echo "<input type='checkbox' name='sodaCheck[". $sodasKey ."]' value='". $sodasValue ."'>
-							<label>". $sodasKey." - ₱". $sodaValue ."</label><br>";
+						foreach ($sodaArr as $sodaKey => $sodaValue) {
+							echo "<input type='checkbox' name='sodaCheck[". $sodaKey ."]' value='". $sodaValue ."'>
+							<label>". $sodaKey." - ₱". $sodaValue ."</label><br>";
 						}
 					}
 				?>
