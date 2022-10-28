@@ -1,5 +1,5 @@
 <?php 
-	$sodasArr = array('Coke' => 15, 'Sprite' => 20, "Royal" => 20, 'Pepsi' => 15, 'Mountain Dew' => 20);
+	$sodaArr = array('Coke' => 15, 'Sprite' => 20, "Royal" => 20, 'Pepsi' => 15, 'Mountain Dew' => 20);
 	$sizesArr = array('Regular' => 'Regular', 'Up-size (add ₱5)' => 'Up-size', 'Jumbo (add ₱10)' => 'Jumbo');
 ?>
 
@@ -19,10 +19,10 @@
 				
 				<legend>Products:</legend>
 				<?php  
-					if(isset($sodasArr)){
-						foreach ($sodasArr as $sodasKey => $sodasValue) {
+					if(isset($sodaArr)){
+						foreach ($sodaArr as $sodasKey => $sodaValue) {
 							echo "<input type='checkbox' name='sodaCheck[". $sodasKey ."]' value='". $sodasValue ."'>
-							<label>". $sodasKey." - ₱". $sodasValue ."</label><br>";
+							<label>". $sodasKey." - ₱". $sodaValue ."</label><br>";
 						}
 					}
 				?>

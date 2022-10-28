@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Peys App</title>
 </head>
 <body>
 	
@@ -37,7 +37,7 @@
 
 		<br><br>
 
-		<img src="../img/IMG_20220702_091023.jpg" alt="Cat.gif" width="<?php echo $imgSize; ?>%" border="5%" style="color:<?php echo $color; ?>">
+		<img src="../img/IMG_20220702_091023.jpg" alt="" width="<?php echo $imgSize; ?>%" border="5%" style="color:<?php echo $color; ?>">
 
 </body>
 </html>
